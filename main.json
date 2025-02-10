@@ -1,0 +1,66 @@
+{
+    "students": [
+    {
+        "id": 1,
+        "studentName": "Lera",
+        "studentAge": "16",
+        "studentPhoto": "./images/photo1.jpg",
+        "studentHobby": "collecting",
+        "studentAssociation": "atiny"
+    },
+
+    {
+        "id": 2,
+        "studentName": "Yarik",
+        "studentAge": "15",
+        "studentPhoto": "./images/photo2.jpg",
+        "studentHobby": "---",
+        "studentAssociation": "---"
+    },
+
+    {
+        "id": 3,
+        "studentName": "Anastasia",
+        "studentAge": "15",
+        "studentPhoto": "./images/photo3.jpg",
+        "studentHobby": "Tennis",
+        "studentAssociation": "Sport"
+    },
+
+    {
+        "id": 4,
+        "studentName": "Sasha",
+        "studentAge": "18",
+        "studentPhoto": "./images/photo4.jpg",
+        "studentHobby": "Work",
+        "studentAssociation": "work"
+    },
+
+    {
+        "id": 5,
+        "studentName": "Egor",
+        "studentAge": "16",
+        "studentPhoto": "./images/photo5.jpg",
+        "studentHobby": "Programmer",
+        "studentAssociation": "Study"
+    }, 
+
+    {
+        "id": 6,
+        "studentName": "Andriy",
+        "studentAge": "15",
+        "studentPhoto": "./images/photo6.jpg",
+        "studentHobby": "---",
+        "studentAssociation": "---"
+    },
+
+    {
+        "id": 7,
+        "studentName": "Yaroslav",
+        "studentAge": "14",
+        "studentPhoto": "./images/photo7.jpg",
+        "studentHobby": "Games",
+        "studentAssociation": "Mem"
+    }
+]
+}

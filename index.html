@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="">STUDENTS</a>
+        <nav class="nav">
+            <a href="#contact">Contact</a>
+            <a href="#about">About Us</a>
+            <a href="#more">More Info</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="div-button"><button id="showStudentsBtn">Показати студентів</button>
+            <button  id="addStudentBtn">Додати студента</button>
+        </div>
+        
+        <div id="studentsContainer"></div>
+
+
+
+    <div id="addStudentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Додати нового студента</h2>
+            <form id="addStudentForm">
+                <div class="form-group">
+                    <label for="studentName">Ім'я студента</label>
+                    <input type="text" id="studentName" name="studentName" required>
+                </div>
+                <div class="form-group">
+                    <label for="studentAge">Вік студента</label>
+                    <input type="number" id="studentAge" name="studentAge" required>
+                </div>
+                <div class="form-group">
+                    <label for="studentPhoto">URL фото студента</label>
+                    <input type="text" id="studentPhoto" name="studentPhoto" required>
+                </div>
+                <div class="form-group">
+                    <label for="studentHobby">Хобі студента</label>
+                    <input type="text" id="studentHobby" name="studentHobby">
+                </div>
+                <div class="form-group">
+                    <label for="studentAssociation">Асоціація студента</label>
+                    <input type="text" id="studentAssociation" name="studentAssociation">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Додати</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
