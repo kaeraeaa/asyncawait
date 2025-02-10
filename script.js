@@ -60,16 +60,16 @@ document.addEventListener('DOMContentLoaded', () => {
     addStudentForm.addEventListener('submit', event => {
         event.preventDefault();
         
-        // Отримання значень з форми
+    
         const studentName = document.getElementById('studentName').value;
         const studentAge = document.getElementById('studentAge').value;
         const studentPhoto = document.getElementById('studentPhoto').value;
         const studentHobby = document.getElementById('studentHobby').value;
         const studentAssociation = document.getElementById('studentAssociation').value;
 
-        // Створення нового студента
+        
         const newStudent = {
-            id: Date.now(), // Використання timestamp як унікального ID
+            id: Date.now(), 
             studentName,
             studentAge,
             studentPhoto,
@@ -77,10 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
             studentAssociation
         };
 
-        // Додавання нового студента до списку студентів
+        
         students.push(newStudent);
 
-        // Оновлення відображення студентів
+        
         const studentElement = document.createElement('div');
         studentElement.className = 'student';
         studentElement.innerHTML = `
@@ -94,10 +94,10 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         studentsContainer.appendChild(studentElement);
 
-        // Закриття модального вікна
+       
         modal.style.display = 'none';
 
-        // Очищення форми
+       
         addStudentForm.reset();
     });
 });
